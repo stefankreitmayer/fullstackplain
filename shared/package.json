@@ -1,0 +1,30 @@
+{
+  "name": "@fullstackplain/shared",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "tsc --watch",
+    "lint": "echo 'No linting configured for shared package'",
+    "lint:fix": "echo 'No linting configured for shared package'",
+    "format": "echo 'No formatting configured for shared package'",
+    "format:check": "echo 'No formatting configured for shared package'",
+    "test": "echo 'No tests configured for shared package'",
+    "test:coverage": "echo 'No tests configured for shared package'"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
+
